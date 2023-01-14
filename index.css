@@ -1,0 +1,72 @@
+@font-face {
+    font-family: culture;
+    src: url(Culture-Regular.ttf)
+}
+
+@font-face {
+    font-family: khandy;
+    src: url(Khandy\ Holand.ttf);
+}
+@font-face {
+    font-family: gayo;
+    src: url(Gayo\ Wine\ Demo.ttf);
+}
+
+body{
+    text-align: center;
+    padding: 0px;
+    margin: 50px auto;
+    height: 100vh;
+    font-family: khandy;
+    font-size: 20px;
+    background-image: url(/images/robot.png);
+    background-size: cover;
+    
+}
+
+.header-str{
+   
+   margin: 70px 50px 10px 50px;
+  
+}
+.container{
+    max-width: 70%;
+    min-width: 50%;
+    border: 2px solid rgb(208, 206, 206);
+    padding: auto;
+    margin: auto;
+}
+
+.numb-count{
+    font-family: culture;
+    font-size: 50px;
+}
+
+button{
+    background: rgb(62, 49, 49);
+    width: 100px;
+    height: 50px;
+    border-radius: 3px;
+    font-family: gayo;
+    font-size: 30px;
+    border: 1px solid rgb(162, 161, 161);
+    color: rgb(196, 199, 203);
+    cursor: pointer;
+    
+    
+}
+button:hover{
+    background: rgb(56, 41, 41);
+}
+
+.plus-btn{
+    margin-bottom: 10px;
+}
+.entries-str{
+    margin: 100px 30px;
+    font-size: 25px;
+    color: rgb(239, 242, 244);
+    background: none;
+    padding: 0px;
+    border: 10x solid gray;
+}
